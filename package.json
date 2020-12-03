@@ -1,6 +1,6 @@
 {
-  "name": "stats-js",
-  "version": "1.0.1",
+  "name": "stats-non-clickable-js",
+  "version": "1.0.2",
   "description": "JavaScript Performance Monitor",
   "main": "build/stats.min.js",
   "directories": {
@@ -8,25 +8,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Kevnz/stats.js.git"
+    "url": "git://github.com/darkaqua/stats.js.git"
   },
   "keywords": [
     "stats",
     "webgl"
   ],
-  "author": "Kevin Isom <kevin.isom@gmail.com>",
+  "author": "darkaqua,
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Kevnz/stats.js/issues"
+    "url": "https://github.com/darkaqua/stats.js/issues"
   },
-  "homepage": "https://github.com/Kevnz/stats.js",
+  "homepage": "https://github.com/darkaqua/stats.js",
   "files": [
     "build",
     "src"
   ],
   "scripts": {
     "build": "rollup -c",
-    "build-uglify": "rollup -c && uglifyjs build/stats.js -cm --preamble \"// stats.js - http://github.com/kevnz/stats.js\" > build/stats.min.js",
+    "build-uglify": "rollup -c && uglifyjs build/stats.js -cm --preamble \"// stats.js - http://github.com/darkaqua/stats.js\" > build/stats.min.js",
     "build-closure": "rollup -c && java -jar utils/compiler/closure-compiler-v20160713.jar --language_in=ECMASCRIPT5_STRICT --js build/stats.js --js_output_file build/stats.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
