@@ -1,6 +1,6 @@
 {
   "name": "stats-non-clickable-js",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "JavaScript Performance Monitor",
   "main": "build/stats.min.js",
   "directories": {

@@ -14,7 +14,6 @@ var Stats = function () {
 
 	var container = document.createElement( 'div' );
 	container.style.cssText = 'position:fixed;top:0;left:0;opacity:0.9;z-index:90000';
-
 	//
 
 	function addPanel( panel ) {
